@@ -44,6 +44,7 @@ const PokeApi = () => {
         });
       });
   }, [numero]);
+	
   return (
     <div style={{ background: pokemon.color }}>
       <h2>{pokemon.name}</h2>
